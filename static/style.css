@@ -1,17 +1,18 @@
 th {
-    color: blue;
+    color: rgb(9, 1, 1);
+    padding: 8px;
     background-color: blanchedalmond;
 }
 
 .table-container {
     text-align: center;
-    color: brown;
+    color: purple
     
 }
 
 .title-center {
     text-align: center;
-    color: #3c5aa6
+    color: black
 }
 
 table, th, td{
@@ -22,5 +23,13 @@ table, th, td{
 }
 
 td{
-    padding: 8px;
+    padding: 5px;
+}
+
+img {
+    width: 75px;
+}
+
+body {
+    background-color: #F0F0F0;
 }

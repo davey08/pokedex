@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" href="static/style.css">
+</head>
 <body>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
+<h1 class="title-center">Pokemon Pokedex</h1>
+<div>
+    
+    {% for names in data['results'] %} 
+        {{names['name']}}
+    {% endfor %}
+   
+</div>
+<div class="table-container">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Job Title</th>
+            <th>Email address</th>
+        </tr>
+        <tr>
+            <td>Anna Fitzgerald</td>
+            <td>Staff Writer</td>
+            <td>example@company.com</td>
+        </tr>
+        <tr>
+            <td>John Smith</td>
+            <td>Marketing Manager</td>
+            <td>example2@company.com</td>
+        </tr>
+        <tr>
+            <td>Zendaya Grace</td>
+            <td>CEO</td>
+            <td>example2@company.com</td>
+        </tr>
+    </table>
+</div>
 </body>
 </html>
 
